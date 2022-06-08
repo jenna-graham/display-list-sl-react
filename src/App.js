@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 // import your arrays here
+import { activities } from './activities-data.js';
+import ActivitiesList from './ActivitiesList.js';
+
 
 function App() {
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
+      <ActivitiesList activities={activities} />
+        
     </div>
   );
 }
