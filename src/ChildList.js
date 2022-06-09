@@ -1,5 +1,4 @@
 import React from 'react';
-import { kids } from './children-data.js';
 import ChildItem from './ChildItem.js';
 
 export default function ChildList({ kids }) {
