@@ -3,14 +3,12 @@ import './App.css';
 import { activities } from './activities-data.js';
 import { crystals } from './crystal-data';
 import { books } from './book-data.js';
+import { kids } from './children-data.js';
 
 import ActivitiesList from './ActivitiesList.js';
 import CrystalList from './CrystalList';
 import BookList from './BookList';
-
-import './App.css';
-
-
+import ChildList from './ChildList.js';
 
 
 function App() {
@@ -21,7 +19,8 @@ function App() {
       <CrystalList crystals={crystals} />
       <hr />
       <BookList books={books} />
-        
+      <hr />
+      <ChildList kids={kids} />
     </div>
   );
 }

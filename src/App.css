@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -36,6 +39,10 @@
     transform: rotate(360deg);
   }
 }
-.book-list {
+.book-item {
   border: 2px, solid;
+}
+.activity {
+  border: 2px solid;
+  width: 50%;
 }
