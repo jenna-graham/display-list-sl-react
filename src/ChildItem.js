@@ -1,7 +1,9 @@
 import React from 'react';
+import './App.css';
 
 export default function childItem({ name, age, favoriteFood, hobbies }) {
   return (
+    
     <div className="kid-item">
       <h2>{name}</h2>
       <p>is {age} years old.</p>
